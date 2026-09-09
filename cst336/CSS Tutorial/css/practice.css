@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+#main-title {
+    color: yellow;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: max(2vw, 7vw);
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center
+}
+
+.figure1 {
+    text-align: center;
+    width: 40%
+}
+
+#image-format-1 {
+    border-top-left-radius: 25px;
+    border: 1px solid yellow;
+    width: 100%;
+    height: auto
+}
+
+#image-format-2 {
+    border-top-right-radius: 25px;
+    border: 1px solid yellow;
+    ;
+    width: 100%;
+    height: auto
+}
+
+#image-format-3 {
+    border-bottom-left-radius: 25px;
+    border: 1px solid yellow;
+    width: 100%;
+    height: auto
+}
+
+#image-format-4 {
+    border-bottom-right-radius: 25px;
+    border: 1px solid yellow;
+    width: 100%;
+    height: auto
+}
+
+.caption {
+    color: white;
+    font-size: max(2vw, 4vw)
+}
+
+#hr1 {
+    width: 75%;
+    margin-top: 20px
+}
+
+#footer1 {
+    font-size: 3vw;
+    color: silver;
+    text-align: center;
+    top-padding: 10px
+}
+
+#image-format-5 {
+    width: 15%
+}

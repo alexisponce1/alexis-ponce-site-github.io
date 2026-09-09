@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+
+#container{
+    background-color: #00366A;
+    width: 100%;
+}
+
+#heading{
+    background-color: black;
+    height: 65px;
+    
+}
+
+#main-title{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family:"Salbo", sans-serif;
+
+}
+
+#link-section{
+    background-color: #a49062;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+#main-section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+
+#names{
+    color: white;
+}
+
+#bottom-section{
+    text-align: center;
+    color: white;
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
