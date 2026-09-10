@@ -77,7 +77,7 @@ body {
     font-size: smaller;
 }
 
-#table-section{
+#table-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,30 +86,38 @@ body {
     padding-bottom: 30px;
 }
 
-#table{
+#table {
     text-align: center;
     height: 100px;
 }
 
-#table_h{
+#table_h {
     padding: 10px 30px;
     border: 1px solid white;
 }
 
-#table_d{
+#table_d {
     border: 1px solid white;
 }
 
-#top_table{
+#top_table {
     background-color: #a49062;
 }
 
-#list{
+#list {
     display: flex;
     justify-content: center;
     padding-bottom: 140px;
 }
 
-#list_ul{
+#list_ul {
     text-align: left;
+}
+
+#form_section {
+    display: flex;
+    justify-content: center;
+}
+
+#iframe_section {
 }
