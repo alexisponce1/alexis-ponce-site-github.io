@@ -1,54 +1,123 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
-#container{
+
+#container {
     background-color: #00366A;
     width: 100%;
+    min-height: 100vh;
 }
 
-#heading{
+#heading {
     background-color: black;
     height: 65px;
-    
+
 }
 
-#main-title{
+#main-title {
     color: white;
     text-align: center;
     font-size: 60px;
-    font-family:"Salbo", sans-serif;
+    font-family: "Slabo", serif;
+    margin: 0;
 
 }
 
-#link-section{
+#link-section {
     background-color: #a49062;
-    display: flex;
-    justify-content: space-evenly;
     height: 30px;
 }
 
-#main-section{
+#nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#links {
+    background-color: #353535;
+}
+
+#link {
+    color: white;
+}
+
+
+#main-section {
     display: flex;
     justify-content: space-evenly;
     height: 400px;
     align-items: center;
     text-align: center;
- 
+
 }
 
 
-#names{
+#names {
     color: white;
 }
 
-#bottom-section{
+#bottom-section {
     text-align: center;
     color: white;
 }
 
-#footer{
+#footer {
     background-color: black;
     text-align: center;
     color: white;
+    min-height: 25vh;
+    font-size: smaller;
+}
+
+#table-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+#table {
+    text-align: center;
+    height: 100px;
+}
+
+#table_h {
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+#table_d {
+    border: 1px solid white;
+}
+
+#top_table {
+    background-color: #a49062;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+#list_ul {
+    text-align: left;
+}
+
+#form_section {
+    display: flex;
+    justify-content: center;
+}
+
+#iframe_section {
 }
