@@ -2,7 +2,8 @@ console.log("Whoa");
 
 //make a variable called answer with a value of 48
 //set aside a space named answer that has 48 in it
-let answer = 48;
+let answer = 28
+
 
 let guesses;
 
@@ -63,4 +64,10 @@ let guessInput = document.querySelector("#guessInput");
 
 //the + converts the text in the input box to a number
 // we compare to the answer to see if they match
-+guessInput.value === answer
+if(+guessInput.value === answer){
+    console.log("You Won!")
+} else {
+
+}
+
+
