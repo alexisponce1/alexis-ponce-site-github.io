@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
-    <p>Guess number between 1 and 99<p>
-    <input id="guessInput" type="number">
-    <button id="guessButton">Guess!</button>
-    <p id="guessMessage"></p>
-    <p id="guessCount"></p>
-    <p id="numGuesses"></p>
+<body id="main-body">
+
+    <div id="main-game">
+
+        <div id="total-games">
+        <p id="gamesWon">Games Won: 0</p>
+        <p id="gamesLost">Games Lost: 0</p>
+        </div>
+
+
+        <div id="main-title">
+        <p>Guess number between 1 and 99</p>
+        </div>
+        <input id="guessInput" type="number">
+        <button id="guessButton">Guess!</button>
+        <button id="resetButton">Reset</button>
+        <p id="guessMessage"></p>
+        <p id="guessCount">Attempts: 0</p>
+        <p id="numGuesses"></p>
+
+
+    </div>
 
 
     <script src="scripts/script1.js"></script>
 
 </body>
+
 </html>
