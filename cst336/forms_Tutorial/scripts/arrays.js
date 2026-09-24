@@ -76,11 +76,19 @@ let limit = 20;
 //"async" is like a stamp that lets the OS knowthat this function could take
 // an unknown amount of time to finish
 async function getCats(){
-    let catsResult = await fetch("https://api.thecatapi.com/v1/images/search?limit=10");
+    let catsResult = await fetch("https://api.thecatapi.com/v1/images/search?limit=10&option=RAND");
     console.log(catsResult);
 
     let catsData = await catsResult.json();
     console.log(catsData);
+
+    let imgSection = document.querySelector("#img-section")
+    for (let cat of catsData){
+        let catImage = document.createElement("img");
+        catImage.src = cat.url;
+        imgSection.appendChild(catImage);
+    }
+
 }
 
 getCats();
