@@ -5,26 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 3: Quiz</title>
-     <scripts src="./scripts/scrip2.js" defer></scripts>
+    <script src="./scripts/scrip2.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="body">
 
-    <h1>HTML and CSS Quiz</h1>
+    <h1>Quiz</h1>
+    <h2 id="congratulations"></h2>
+    <h2 id="score"></h2>
+    <p id="attempts"></p>
 
-    1.What HTML element creates a dropdown menu? <br>
-    <!-- <label> <input name="q1" type="radio" value="select"> Select </label>
-    <label> <input name="q1" type="radio" value="dropdown"> Dropdown </label>
-    <label> <input name="q1" type="radio" value="option"> Option </label>
-    <label> <input name="q1" type="radio" value="menu"> Menu </label> -->
+    <p class="questions"> 1.What is the CSUMB mascot?</p>
+    <div id="q1Choices"></div>
+    <p id="q1Message"></p>
+    <img id="q1Image" class = "answerImage">
 
-    <div id="q1Choices"> </div>
 
-    2.What HTML element creates a dropdown menu?
-    <input type="">
+    <p class="questions"> 2. What is the fastest animal in the world? </p>
+
+    <input type="text" id="q2" name="q2">
+    <p id="q2Message"></p>
+    <img id="q2Image" class = "answerImage">
+
+    <p class="questions"> 3. Where is CSUMB Located? </p>
+
+    <select id="CSUMB_Locations">
+        <option id="Monterey" value="Monterey">Monterey</option>
+        <option id="San Francisco" value="San Francisco">San Francisco</option>
+        <option id="Salinas" value="Salinas">Salinas</option>
+    </select>
+    <p id="q3Message"></p>
+    <img id="q3Image" class = "answerImage">
+
+    <p class="questions"> 4. How Old is the United States in 2026? </p>
+  
+    <input id="US_age" type="number">
+    <p id="q4Message"></p>
+    <img id="q4Image" class = "answerImage">
+
+    <p class="questions">5. Which are planets in our solar system? </p>
+    <br>
+    <input type="checkbox" name="planets" id="Mars" value="Mars"><label for="Mars">Mars</label>
+    <input type="checkbox" name="planets" id="Earth" value="Earth"><label for="Earth">Earth</label>
+    <input type="checkbox" name="planets" id="Venus" value="Venus"><label for="Venus">Venus</label>
+    <input type="checkbox" name="planets" id="Jupiter" value="Jupiter"><label for="Jupiter">Jupiter</label>
+    <input type="checkbox" name="planets" id="California" value="California"><label for="California">California</label>
+    <p id="q5Message"></p>
+    <img id="q5Image" class = "answerImage">
     <br>
 
-    <button>Submit Quiz</button>
+    <button id = "submitButton">Submit Quiz</button>
 
 
 </body>
